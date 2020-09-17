@@ -9,12 +9,12 @@
                                 <h1 class="h3 mb-3 font-weight-normal">Login</h1>
 
                                 <div class="form-group">
-                                    <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                                    <input input type="text" class="form-control" [(ngModel)]="email">
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+                                    <input type="password" class="form-control" [(ngModel)]="password">
                                 </div>
-                                <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+                                <button type="submit" class="btn btn-lg btn-primary btn-block" ngbButton (click)="validar()">Login</button>
                                 <div class="form-group">
                                 </div>
                             </form>

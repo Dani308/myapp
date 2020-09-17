@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myApp';
+    public email:string;
+    public password:String;
+
+    validar(){
+     
+      if(this.email!="fgdfg" && this.password!="123"){
+          alert("sdfsdfs");
+      }
+      else{
+        alert("Datos corectos");
+      }
+    }
 }
