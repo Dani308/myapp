@@ -11,11 +11,11 @@ export class AppComponent {
 
     validar(){
      
-      if(this.email!="fgdfg" && this.password!="123"){
-          alert("sdfsdfs");
+      if(this.email==="a.alexander718@hotmail.com" && this.password==="123"){
+          alert("Usuario y Contraseña Validos");
       }
       else{
-        alert("Datos corectos");
+        alert("Verifique sus datos");
       }
     }
 }
